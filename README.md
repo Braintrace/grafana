@@ -27,6 +27,7 @@ the latest master builds [here](https://grafana.com/grafana/download)
 Ubuntu 16.04 LTS
 
 ### Install Go 1.10
+```
 sudo add-apt-repository ppa:gophers/archive
 sudo apt-get update
 sudo apt-get install golang-1.10-go
@@ -36,7 +37,7 @@ add line
   export GOPATH=$HOME/go
 exit and source
   source ~/.bash_profile
-
+```
 ### Install Node.js 6.x repository
 curl -sL https://deb.nodesource.com/setup_6.x | bash -
 
