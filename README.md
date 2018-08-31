@@ -24,13 +24,44 @@ the latest master builds [here](https://grafana.com/grafana/download)
 
 ### Dependencies
 
-- Go 1.10
-- NodeJS LTS
+Ubuntu 16.04 LTS
+
+### Install Go 1.10
+sudo add-apt-repository ppa:gophers/archive
+sudo apt-get update
+sudo apt-get install golang-1.10-go
+edit ~./bash_profile  
+  nano ~/.bash_profile
+add line 
+  export GOPATH=$HOME/go
+exit and source
+  source ~/.bash_profile
+
 ### Install Node.js 6.x repository
 curl -sL https://deb.nodesource.com/setup_6.x | bash -
 
 ### Install Node.js and npm
 apt-get install -y nodejs
+
+### Install Yarn
+npm install -g yarn
+
+### Install Docker
+apt install docker.io
+
+## Building custom docker image
+
+You can build a custom image using Docker, which doesn't require installing any dependencies besides docker itself.
+```bash
+git clone https://github.com/braintrace/grafana
+cd grafana
+docker build -t grafana:dev .
+docker run -d --name=grafana -p 3000:3000 grafana:dev
+```
+
+
+
+
 
 
 ### Building the backend
