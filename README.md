@@ -42,6 +42,7 @@ For this you need nodejs (v.6+).
 To build the assets, rebuild on file change, and serve them by Grafana's webserver (http://localhost:3000):
 ```bash
 npm install -g yarn
+ln -s /usr/bin/nodejs /usr/bin/node
 yarn install --pure-lockfile
 yarn watch
 ```
