@@ -115,9 +115,11 @@ select:-webkit-autofill:focus {
   justify-content: center;
   flex-grow: 0;
   padding-top: 2rem;
-  .logo-iconwidth:180px;
-  margin-bottom:25px;
-  .icon-gf-grafana_wordmarkwidth:180px;
+  .logo-icon {
+  width: 180px;
+  margin-bottom:25px; }
+  .icon-gf-grafana_wordmark {
+  width: 180px; }
  }
 
 .login-outer-box {
@@ -323,8 +325,10 @@ select:-webkit-autofill:focus {
     width: 35%;
     padding: 4rem 2rem;
     border-right: 1px solid $login-border;
-    .logo-iconwidth:160px;
-    .icon-gf-grafana_wordmarkwidth:160px;
+    .logo-icon {
+    width: 180px; }
+    .icon-gf-grafana_wordmark {
+    width: 180px; }
   }
 
   .login-inner-box {
@@ -353,8 +357,10 @@ select:-webkit-autofill:focus {
     width: 45%;
     padding: 2rem 4rem;
     flex-grow: 1;
-    .logo-iconwidth:160px;
-    .icon-gf-grafana_wordmarkwidth:160px;
+    .logo-icon {
+    width: 180px; }
+    .icon-gf-grafana_wordmark {
+    width: 180px; }
   }
 
   .login-inner-box {
