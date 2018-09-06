@@ -115,16 +115,10 @@ select:-webkit-autofill:focus {
   justify-content: center;
   flex-grow: 0;
   padding-top: 2rem;
-
-  .logo-icon {
-    width: 220px;
-    margin-bottom: 25px;
-  }
-
-  .icon-gf-grafana_wordmark {
-    witdh: 220px;
-  }
-}
+  .logo-iconwidth:220px;
+  margin-bottom:25px;
+  .icon-gf-grafana_wordmarkwidth:220px;
+ }
 
 .login-outer-box {
   display: flex;
@@ -329,14 +323,8 @@ select:-webkit-autofill:focus {
     width: 35%;
     padding: 4rem 2rem;
     border-right: 1px solid $login-border;
-
-    .logo-icon {
-      width: 90px;
-    }
-
-    .icon-gf-grafana_wordmark {
-      width: 90px;
-    }
+    .logo-iconwidth:90px;
+    .icon-gf-grafana_wordmarkwidth:90px;
   }
 
   .login-inner-box {
@@ -360,18 +348,13 @@ select:-webkit-autofill:focus {
     flex: 1 0 100%;
   }
 
-  .login-branding {
+  .login-
+ {
     width: 45%;
     padding: 2rem 4rem;
     flex-grow: 1;
-
-    .logo-icon {
-      width: 130px;
-    }
-
-    .icon-gf-grafana_wordmark {
-      width: 130px;
-    }
+    .logo-iconwidth:130px;
+    .icon-gf-grafana_wordmarkwidth:130px;
   }
 
   .login-inner-box {
